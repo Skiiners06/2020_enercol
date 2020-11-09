@@ -1,0 +1,163 @@
+@charset "UTF-8";
+.backgroundElec img {
+  width: 100%;
+}
+
+.titreHeader {
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+.imgLogo {
+  margin-left: 40%;
+}
+
+/* Div Logo svg*/
+.logoSvg {
+  width: 100%;
+}
+
+.ligne1Logo, .ligne2Logo {
+  width: 100%;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*************************
+    Debut text Logo SVG
+ *************************/
+.textCoop {
+  color: #c3a575;
+}
+
+.textInstall {
+  color: #b3d143;
+}
+
+.textProd {
+  color: #fcb731;
+}
+
+.textCapital {
+  color: #00afec;
+}
+
+/*************************
+    Fin text Logo SVG
+ *************************/
+.logo1, .logo2 {
+  width: 25%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.logo3, .logo4 {
+  width: 25%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.titre h1, h2 {
+  text-align: center;
+  color: #fcb731;
+}
+
+.titre h1 {
+  font-size: 1.7em;
+  margin-bottom: -0.2em;
+}
+
+.titre h2 {
+  font-size: 1em;
+}
+
+.texteGauche {
+  width: 49%;
+  background-color: #868e96;
+  display: inline-block;
+}
+
+.texteDroit {
+  width: 49%;
+  background-color: #868e96;
+  display: inline-block;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.container-articles {
+  background-color: beige;
+}
+
+.article1 {
+  background-color: #fcb731;
+}
+
+.photo-article {
+  width: 32%;
+  display: inline-block;
+}
+
+.text-article {
+  width: 32%;
+  display: inline-block;
+}
+
+.part-3-article {
+  width: 32%;
+  display: inline-block;
+}
+
+.article2 {
+  background-color: #b3d143;
+}
+
+.article3 {
+  background-color: white;
+}
+
+.article4 {
+  background-color: #e8ddca;
+}
+
+/**********************
+        Menu
+ **********************/
+.hamb {
+  height: 40px;
+  margin-top: -5px;
+  margin-left: 100px;
+}
+
+.barrnav {
+  margin-top: -55px;
+  margin-right: 10px;
+  float: right;
+}
+
+/* En version mobile on cache les éléments du menu burger de base */
+ul {
+  display: none;
+}
+
+/* Toggle pour afficher le sous menu Lors du clic sur le burger */
+.styleToggle {
+  display: block;
+  list-style: none;
+}
+
+/**********************
+  MEDIA QUERIES DESKTOP
+ **********************/
+@media screen and (min-width: 970px) {
+  .container {
+    width: 970px;
+  }
+  .container-articles {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

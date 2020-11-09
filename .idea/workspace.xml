@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f493a25e-5457-4005-b4c1-217e11f1714e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Photos/20161202_101925.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/IMG_20170121_122143.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/IMG_4106.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/IMG_4107.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/P1140365.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/recadrage1_site.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photos/recadrage4_site.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/fleche_droite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/fleche_gauche.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/schema_epargne_citoyenne.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/schema_installateurs_pros.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/schema_installation_photovoltaique.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/schema_production_maison.svg" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1k31TLbqNew8fxHpJ5Z2zwxpge4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f493a25e-5457-4005-b4c1-217e11f1714e" name="Default Changelist" comment="" />
+      <created>1604914468359</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604914468359</updated>
+      <workItem from="1604914470599" duration="7965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
