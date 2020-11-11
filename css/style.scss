@@ -1,3 +1,11 @@
+$grisFonce: rgb(109,111,113);
+$marron:rgb(195,165,117);
+$orange:rgb(252,183,49);
+$bleu:rgb(0,175,236);
+$vertClair:rgb(179,209,67);
+$vertFonce:rgb(100,123,34);
+
+
 .backgroundElec img{
   width:100%;
 }
@@ -24,19 +32,19 @@
  *************************/
 
 .textCoop{
-  color:rgb(195,165,117);
+  color:$marron;
 }
 
 .textInstall{
-  color:rgb(179,209,67)
+  color:$vertClair;
 }
 
 .textProd{
-  color:rgb(252,183,49);
+  color:$orange;
 }
 
 .textCapital{
-  color:rgb(0,175,236);
+  color:$bleu;
 }
 
 /*************************
@@ -54,9 +62,9 @@
   display:inline-block;
   margin:0 auto;
 }
-.titre h1,h2{
+.titre h1, .titre h2{
   text-align: center;
-  color:rgb(252,183,49);
+  color:$orange;
 }
 
 .titre h1{
@@ -68,16 +76,65 @@
   font-size: 1em;
 }
 
+/**********************
+  Partie Texte centre
+**********************/
+
+.texte{
+  color:$grisFonce;
+}
 .texteGauche{
-  width:49%;
-  background-color: #868e96;
-  display:inline-block;
+  width:100%;
+  display:block;
+  text-align:center;
+  color: $grisFonce;
 }
 
 .texteDroit{
-  width:49%;
-  background-color: #868e96;
-  display:inline-block;
+  width:100%;
+  display:block;
+  text-align:center;
+}
+
+/* Div Boutton : */
+.divBoutton{
+  width:100%;
+  background-color:$grisFonce;
+  padding-top:20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  margin-top:10px;
+  margin-bottom: 30px;
+}
+
+/* image + Div boutton */
+
+.divBoutton img{
+  color:white;
+}
+
+/* Div Souscrire : */
+.divSouscrire{
+  display:flex;
+  background-color:$orange;
+  width:40%;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-left:25%;
+  border-radius: 8px;
+}
+
+/* image + Div Souscrire */
+.divSouscrire p {
+  margin-right:10px;
+  margin-left:10px;
+}
+
+/* Text a l'intérieur de la div boutton */
+.divBoutton>p {
+  text-align:center;
+  color:white;
 }
 
 .container{
@@ -89,26 +146,12 @@
 }
 
 .article1{
-  background-color:rgb(252,183,49);
+  background-color:$orange;
 }
 
-.photo-article{
-  width:32%;
-  display:inline-block;
-}
-
-.text-article{
-  width:32%;
-  display:inline-block;
-}
-
-.part-3-article{
-  width:32%;
-  display:inline-block;
-}
 
 .article2{
-  background-color:rgb(179,209,67);
+  background-color:$vertClair;
 }
 
 .article3{
@@ -147,6 +190,89 @@ ul{
   display:block;
   list-style: none;
 }
+
+.container-articles,.photo-article,.text-article{
+  display:flex;
+  flex-direction: column;
+}
+
+/* mettre côte à côte  le titre et les flèches Gauche / droite : */
+.titrePhoto{
+  display:flex;
+}
+
+.titrePhoto div p{
+  margin-left:10px;
+  margin-top:10px;
+}
+
+/* Flèche Gauche et Droite positioné a droite de la div*/
+.FlecheG-D{
+  margin-left:220px;
+  margin-top:10px;
+}
+
+.imageArticle{
+  width:80%;
+  margin-left:10px;
+}
+
+.imageArticle img{
+  width:100%;
+}
+
+/* met en blanc les text avec classe text-article1*/
+.text-article1{
+  color:white;
+}
+
+.text-article1 h3,p{
+  margin-left:20px;
+  margin-bottom: 5px;
+}
+
+.text-article2{
+  color:$grisFonce;
+}
+
+.text-article2 h3,p{
+  margin-left:20px;
+  margin-bottom:5px;
+}
+.text-article3{
+  color:$grisFonce;
+}
+.text-article3 h3,p{
+  margin-left:20px;
+  margin-bottom:5px;
+}
+
+.voir-install{
+  width:100%;
+  background-color:$grisFonce;
+  padding-top:5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.voir-install p{
+  margin-left:20%;
+}
+
+.text-article4{
+  color:$grisFonce;
+}
+
+.text-article4 h3,p{
+  margin-left:20px;
+  margin-bottom:5px;
+}
+
+.article1,.article2,.article3,.article4{
+  margin-top:20px;
+}
+
 
 /**********************
   MEDIA QUERIES DESKTOP

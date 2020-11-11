@@ -57,7 +57,7 @@
   margin: 0 auto;
 }
 
-.titre h1, h2 {
+.titre h1, .titre h2 {
   text-align: center;
   color: #fcb731;
 }
@@ -71,16 +71,65 @@
   font-size: 1em;
 }
 
+/**********************
+  Partie Texte centre
+**********************/
+.texte {
+  color: #6d6f71;
+}
+
 .texteGauche {
-  width: 49%;
-  background-color: #868e96;
-  display: inline-block;
+  width: 100%;
+  display: block;
+  text-align: center;
+  color: #6d6f71;
 }
 
 .texteDroit {
-  width: 49%;
-  background-color: #868e96;
-  display: inline-block;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* Div Boutton : */
+.divBoutton {
+  width: 100%;
+  background-color: #6d6f71;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* image + Div boutton */
+.divBoutton img {
+  color: white;
+}
+
+/* Div Souscrire : */
+.divSouscrire {
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fcb731;
+  width: 40%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  margin-left: 25%;
+  border-radius: 8px;
+}
+
+/* image + Div Souscrire */
+.divSouscrire p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Text a l'intérieur de la div boutton */
+.divBoutton > p {
+  text-align: center;
+  color: white;
 }
 
 .container {
@@ -93,21 +142,6 @@
 
 .article1 {
   background-color: #fcb731;
-}
-
-.photo-article {
-  width: 32%;
-  display: inline-block;
-}
-
-.text-article {
-  width: 32%;
-  display: inline-block;
-}
-
-.part-3-article {
-  width: 32%;
-  display: inline-block;
 }
 
 .article2 {
@@ -146,6 +180,93 @@ ul {
 .styleToggle {
   display: block;
   list-style: none;
+}
+
+.container-articles, .photo-article, .text-article {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+/* mettre côte à côte  le titre et les flèches Gauche / droite : */
+.titrePhoto {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.titrePhoto div p {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+/* Flèche Gauche et Droite positioné a droite de la div*/
+.FlecheG-D {
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.imageArticle {
+  width: 80%;
+  margin-left: 10px;
+}
+
+.imageArticle img {
+  width: 100%;
+}
+
+/* met en blanc les text avec classe text-article1*/
+.text-article1 {
+  color: white;
+}
+
+.text-article1 h3, p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.text-article2 {
+  color: #6d6f71;
+}
+
+.text-article2 h3, p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.text-article3 {
+  color: #6d6f71;
+}
+
+.text-article3 h3, p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.voir-install {
+  width: 100%;
+  background-color: #6d6f71;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.voir-install p {
+  margin-left: 20%;
+}
+
+.text-article4 {
+  color: #6d6f71;
+}
+
+.text-article4 h3, p {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+.article1, .article2, .article3, .article4 {
+  margin-top: 20px;
 }
 
 /**********************
