@@ -1,5 +1,6 @@
 $grisFonce: rgb(109,111,113);
 $marron:rgb(195,165,117);
+$marronClair:rgb(232,221,202);
 $orange:rgb(252,183,49);
 $bleu:rgb(0,175,236);
 $vertClair:rgb(179,209,67);
@@ -159,7 +160,7 @@ $vertFonce:rgb(100,123,34);
 }
 
 .article4{
-  background-color: rgb(232,221,202)
+  background-color:$marronClair;
 }
 
 /**********************
@@ -169,7 +170,7 @@ $vertFonce:rgb(100,123,34);
 
 .hamb{
   height: 40px;
-  margin-top:-5px;
+  margin-top:7px;
   margin-left:100px;
 }
 
@@ -191,87 +192,61 @@ ul{
   list-style: none;
 }
 
-.container-articles,.photo-article,.text-article{
-  display:flex;
-  flex-direction: column;
+/* Sous menu visible par dessus l'image */
+.afficheSousMenu{
+  margin-top:5px;
+  position: absolute;
+  background-color: white;
+  opacity: 80%;
 }
 
-/* mettre côte à côte  le titre et les flèches Gauche / droite : */
-.titrePhoto{
-  display:flex;
+.afficheSousMenu a{
+  color:black;
+  text-decoration:none;
 }
 
-.titrePhoto div p{
-  margin-left:10px;
-  margin-top:10px;
+
+/* Fond points : */
+
+.headerPoint{
+  height:50px;
+}
+.fondPoint{
+  background-image:url("../img/points.svg");
 }
 
-/* Flèche Gauche et Droite positioné a droite de la div*/
-.FlecheG-D{
-  margin-left:220px;
-  margin-top:10px;
+.ArticleOrange{
+  background-color: $orange;
 }
 
-.imageArticle{
+.ArticleVert{
+  background-color: $vertClair;
+}
+
+.ArticlePoint{
+  background-image: url("../img/points.svg");
+}
+
+.ArticleMarron {
+  background-color:$marronClair;
+}
+
+
+.inner {
+  width:100%;
+  margin-bottom: 10px;
+}
+
+.ImgArticle img{
   width:80%;
   margin-left:10px;
 }
 
-.imageArticle img{
-  width:100%;
+.TexteArticle{
+  width:80%;
+  margin-left:10px;
 }
 
-/* met en blanc les text avec classe text-article1*/
-.text-article1{
-  color:white;
-}
-
-.text-article1 h3,p{
-  margin-left:20px;
-  margin-bottom: 5px;
-}
-
-.text-article2{
-  color:$grisFonce;
-}
-
-.text-article2 h3,p{
-  margin-left:20px;
-  margin-bottom:5px;
-}
-.text-article3{
-  color:$grisFonce;
-}
-.text-article3 h3,p{
-  margin-left:20px;
-  margin-bottom:5px;
-}
-
-.voir-install{
-  width:100%;
-  background-color:$grisFonce;
-  padding-top:5px;
-  padding-bottom: 5px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-
-.voir-install p{
-  margin-left:20%;
-}
-
-.text-article4{
-  color:$grisFonce;
-}
-
-.text-article4 h3,p{
-  margin-left:20px;
-  margin-bottom:5px;
-}
-
-.article1,.article2,.article3,.article4{
-  margin-top:20px;
-}
 
 
 /**********************
@@ -283,7 +258,157 @@ ul{
   .container{
     width:970px;
   }
-  .container-articles{
+
+
+  .hamb{
+    display:none;
+  }
+
+  ul{
+    display:block;
+  }
+
+  .barrnav{
+    position:absolute;
+    margin-top:0px;
+    margin-left:500px;
+  }
+
+  .titreHeader{
+    background-color:white;
+    margin-left:180px;
+    padding-left: 15px;
+    padding-right:10px;
+  }
+
+  .afficheSousMenu{
+    position:static;
+    background-color:$vertClair;
+    opacity:1;
+    margin-left:20px;
+    margin-top:30px;
+    padding-bottom: 10px;
+    padding-top:10px;
+  }
+
+  .afficheSousMenu a{
+    padding-right:15px;
+  }
+
+  .afficheSousMenu a:hover{
+    background-color:blue;
+
+  }
+
+
+  .titreHeader{
+    position:absolute;
+  }
+
+  .texteDroit,li{
+    display:inline-block;
+    margin:0 auto;
+    color:#6d6f71;
+  }
+
+
+  .logoSvg{
+    display:flex;
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+
+  .ligne1Logo, .ligne2Logo{
     width:100%;
   }
+
+  .partie1.fondPoint {
+    display: flex;
+  }
+
+  .imgLogo {
+    margin-left: 45%;
+  }
+
+  .logoSvg p {
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 10px;
+  }
+
+  .texteGauche, .texteDroit{
+    width:50%;
+    display:inline-block;
+  }
+
+  .texteDroit{
+    background-color:white;
+  }
+
+  .divBoutton{
+    width:80%;
+    margin:0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .partie2{
+    display:flex;
+    margin-bottom: 50px;
+  }
+
+  .divSouscrire{
+    width:15%;
+    margin-left:42%;
+  }
+
+  /* Articles : */
+  /* Redimentionnement image*/
+
+  .imageArticle{
+    width:35%;
+    margin-left:200px;
+  }
+
+  .titrePhoto{
+    margin-left:200px;
+  }
+
+
+
+
+  /******************************
+          MODIF HTML ARTICLES
+   ******************************/
+
+
+  .ArticleOrange{
+    background-color:orange;
+
+  }
+
+  .inner{
+    width:970px;
+    margin:0 auto;
+    display:flex;
+    margin-bottom: 20px;
+  }
+
+  .ImgArticle{
+    width:50%;
+
+  }
+
+  .TexteArticle{
+    width:50%;
+  }
+
+
+
+
+
+
+
+
 }
